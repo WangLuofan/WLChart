@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B33B38F620AD7B2E00511D30 /* WLLegendView.h in Headers */ = {isa = PBXBuildFile; fileRef = B33B38F420AD7B2E00511D30 /* WLLegendView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B33B38F720AD7B2E00511D30 /* WLLegendView.m in Sources */ = {isa = PBXBuildFile; fileRef = B33B38F520AD7B2E00511D30 /* WLLegendView.m */; };
+		B34C9B1020B5113C00C22B8D /* WLPolylineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B34C9B0E20B5113C00C22B8D /* WLPolylineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34C9B1120B5113C00C22B8D /* WLPolylineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B34C9B0F20B5113C00C22B8D /* WLPolylineChart.m */; };
+		B34C9B1420B5115400C22B8D /* WLPolylineChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B34C9B1220B5115400C22B8D /* WLPolylineChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34C9B1520B5115400C22B8D /* WLPolylineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B34C9B1320B5115400C22B8D /* WLPolylineChartDataItem.m */; };
+		B34C9B1A20B5503B00C22B8D /* WLScatterChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B34C9B1820B5503B00C22B8D /* WLScatterChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34C9B1B20B5503B00C22B8D /* WLScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B34C9B1920B5503B00C22B8D /* WLScatterChartDataItem.m */; };
+		B34C9B1E20B550E000C22B8D /* WLScatterChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B34C9B1C20B550E000C22B8D /* WLScatterChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34C9B1F20B550E000C22B8D /* WLScatterChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B34C9B1D20B550E000C22B8D /* WLScatterChart.m */; };
+		B35D3AA120A578FE009E0F95 /* WLChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B35D3A9F20A578FE009E0F95 /* WLChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35D3AD820A57D93009E0F95 /* WLPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B35D3AD620A57D93009E0F95 /* WLPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35D3AD920A57D93009E0F95 /* WLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B35D3AD720A57D93009E0F95 /* WLPieChart.m */; };
+		B35D3ADC20A57E24009E0F95 /* WLChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B35D3ADA20A57E24009E0F95 /* WLChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35D3ADD20A57E24009E0F95 /* WLChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B35D3ADB20A57E24009E0F95 /* WLChartDataItem.m */; };
+		B35D3AE220A57EDC009E0F95 /* WLPieChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B35D3AE020A57EDC009E0F95 /* WLPieChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35D3AE320A57EDC009E0F95 /* WLPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B35D3AE120A57EDC009E0F95 /* WLPieChartDataItem.m */; };
+		B35D3AE620A58442009E0F95 /* WLBasicChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B35D3AE420A58442009E0F95 /* WLBasicChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35D3AE720A58442009E0F95 /* WLBasicChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B35D3AE520A58442009E0F95 /* WLBasicChart.m */; };
+		B36DB14020AE85BB0093162D /* WLRadarChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B36DB13E20AE85BB0093162D /* WLRadarChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B36DB14120AE85BB0093162D /* WLRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DB13F20AE85BB0093162D /* WLRadarChartDataItem.m */; };
+		B36DB14420AE85D50093162D /* WLRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B36DB14220AE85D50093162D /* WLRadarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B36DB14520AE85D50093162D /* WLRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DB14320AE85D50093162D /* WLRadarChart.m */; };
+		B3B2676820B6940F009F761D /* WLBasicAxisChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B2676620B6940F009F761D /* WLBasicAxisChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B2676920B6940F009F761D /* WLBasicAxisChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B2676720B6940F009F761D /* WLBasicAxisChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B33B38F420AD7B2E00511D30 /* WLLegendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLLegendView.h; sourceTree = "<group>"; };
+		B33B38F520AD7B2E00511D30 /* WLLegendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLLegendView.m; sourceTree = "<group>"; };
+		B34C9B0E20B5113C00C22B8D /* WLPolylineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLPolylineChart.h; sourceTree = "<group>"; };
+		B34C9B0F20B5113C00C22B8D /* WLPolylineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPolylineChart.m; sourceTree = "<group>"; };
+		B34C9B1220B5115400C22B8D /* WLPolylineChartDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLPolylineChartDataItem.h; sourceTree = "<group>"; };
+		B34C9B1320B5115400C22B8D /* WLPolylineChartDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPolylineChartDataItem.m; sourceTree = "<group>"; };
+		B34C9B1820B5503B00C22B8D /* WLScatterChartDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLScatterChartDataItem.h; sourceTree = "<group>"; };
+		B34C9B1920B5503B00C22B8D /* WLScatterChartDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLScatterChartDataItem.m; sourceTree = "<group>"; };
+		B34C9B1C20B550E000C22B8D /* WLScatterChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLScatterChart.h; sourceTree = "<group>"; };
+		B34C9B1D20B550E000C22B8D /* WLScatterChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLScatterChart.m; sourceTree = "<group>"; };
+		B35D3A9C20A578FE009E0F95 /* WLChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WLChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35D3A9F20A578FE009E0F95 /* WLChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLChart.h; sourceTree = "<group>"; };
+		B35D3AA020A578FE009E0F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35D3AD620A57D93009E0F95 /* WLPieChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLPieChart.h; sourceTree = "<group>"; };
+		B35D3AD720A57D93009E0F95 /* WLPieChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPieChart.m; sourceTree = "<group>"; };
+		B35D3ADA20A57E24009E0F95 /* WLChartDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLChartDataItem.h; sourceTree = "<group>"; };
+		B35D3ADB20A57E24009E0F95 /* WLChartDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLChartDataItem.m; sourceTree = "<group>"; };
+		B35D3AE020A57EDC009E0F95 /* WLPieChartDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLPieChartDataItem.h; sourceTree = "<group>"; };
+		B35D3AE120A57EDC009E0F95 /* WLPieChartDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPieChartDataItem.m; sourceTree = "<group>"; };
+		B35D3AE420A58442009E0F95 /* WLBasicChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBasicChart.h; sourceTree = "<group>"; };
+		B35D3AE520A58442009E0F95 /* WLBasicChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLBasicChart.m; sourceTree = "<group>"; };
+		B36DB13E20AE85BB0093162D /* WLRadarChartDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLRadarChartDataItem.h; sourceTree = "<group>"; };
+		B36DB13F20AE85BB0093162D /* WLRadarChartDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLRadarChartDataItem.m; sourceTree = "<group>"; };
+		B36DB14220AE85D50093162D /* WLRadarChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLRadarChart.h; sourceTree = "<group>"; };
+		B36DB14320AE85D50093162D /* WLRadarChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLRadarChart.m; sourceTree = "<group>"; };
+		B3B2676620B6940F009F761D /* WLBasicAxisChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBasicAxisChart.h; sourceTree = "<group>"; };
+		B3B2676720B6940F009F761D /* WLBasicAxisChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLBasicAxisChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B35D3A9820A578FE009E0F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B33B38F320AD7B1E00511D30 /* Legend */ = {
+			isa = PBXGroup;
+			children = (
+				B33B38F420AD7B2E00511D30 /* WLLegendView.h */,
+				B33B38F520AD7B2E00511D30 /* WLLegendView.m */,
+			);
+			path = Legend;
+			sourceTree = "<group>";
+		};
+		B34C9B0C20B5111700C22B8D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B34C9B1220B5115400C22B8D /* WLPolylineChartDataItem.h */,
+				B34C9B1320B5115400C22B8D /* WLPolylineChartDataItem.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B34C9B0D20B5111B00C22B8D /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B34C9B0E20B5113C00C22B8D /* WLPolylineChart.h */,
+				B34C9B0F20B5113C00C22B8D /* WLPolylineChart.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		B34C9B1620B5502500C22B8D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B34C9B1820B5503B00C22B8D /* WLScatterChartDataItem.h */,
+				B34C9B1920B5503B00C22B8D /* WLScatterChartDataItem.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B34C9B1720B5502A00C22B8D /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B34C9B1C20B550E000C22B8D /* WLScatterChart.h */,
+				B34C9B1D20B550E000C22B8D /* WLScatterChart.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		B35D3A9220A578FE009E0F95 = {
+			isa = PBXGroup;
+			children = (
+				B35D3A9E20A578FE009E0F95 /* WLChart */,
+				B35D3A9D20A578FE009E0F95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B35D3A9D20A578FE009E0F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35D3A9C20A578FE009E0F95 /* WLChart.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B35D3A9E20A578FE009E0F95 /* WLChart */ = {
+			isa = PBXGroup;
+			children = (
+				B35D3ACC20A579E0009E0F95 /* Classes */,
+				B35D3A9F20A578FE009E0F95 /* WLChart.h */,
+				B35D3AA020A578FE009E0F95 /* Info.plist */,
+			);
+			path = WLChart;
+			sourceTree = "<group>";
+		};
+		B35D3ACC20A579E0009E0F95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B33B38F320AD7B1E00511D30 /* Legend */,
+				B35D3AD520A57D46009E0F95 /* Base */,
+				B35D3AD420A57B26009E0F95 /* kLineChart */,
+				B35D3AD320A57B1A009E0F95 /* ScatterChart */,
+				B35D3AD220A57B0D009E0F95 /* AreaChart */,
+				B35D3AD020A57AA2009E0F95 /* PolylineChart */,
+				B35D3ACF20A57A8F009E0F95 /* RadarChart */,
+				B35D3ACD20A57A7C009E0F95 /* PieChart */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B35D3ACD20A57A7C009E0F95 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				B35D3ADF20A57ECD009E0F95 /* Data */,
+				B35D3ADE20A57EC2009E0F95 /* Chart */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		B35D3ACF20A57A8F009E0F95 /* RadarChart */ = {
+			isa = PBXGroup;
+			children = (
+				B36DB13C20AE858F0093162D /* Data */,
+				B36DB13D20AE85950093162D /* Chart */,
+			);
+			path = RadarChart;
+			sourceTree = "<group>";
+		};
+		B35D3AD020A57AA2009E0F95 /* PolylineChart */ = {
+			isa = PBXGroup;
+			children = (
+				B34C9B0C20B5111700C22B8D /* Data */,
+				B34C9B0D20B5111B00C22B8D /* Chart */,
+			);
+			path = PolylineChart;
+			sourceTree = "<group>";
+		};
+		B35D3AD220A57B0D009E0F95 /* AreaChart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AreaChart;
+			sourceTree = "<group>";
+		};
+		B35D3AD320A57B1A009E0F95 /* ScatterChart */ = {
+			isa = PBXGroup;
+			children = (
+				B34C9B1620B5502500C22B8D /* Data */,
+				B34C9B1720B5502A00C22B8D /* Chart */,
+			);
+			path = ScatterChart;
+			sourceTree = "<group>";
+		};
+		B35D3AD420A57B26009E0F95 /* kLineChart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = kLineChart;
+			sourceTree = "<group>";
+		};
+		B35D3AD520A57D46009E0F95 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B35D3ADA20A57E24009E0F95 /* WLChartDataItem.h */,
+				B35D3ADB20A57E24009E0F95 /* WLChartDataItem.m */,
+				B35D3AE420A58442009E0F95 /* WLBasicChart.h */,
+				B35D3AE520A58442009E0F95 /* WLBasicChart.m */,
+				B3B2676620B6940F009F761D /* WLBasicAxisChart.h */,
+				B3B2676720B6940F009F761D /* WLBasicAxisChart.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B35D3ADE20A57EC2009E0F95 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B35D3AD620A57D93009E0F95 /* WLPieChart.h */,
+				B35D3AD720A57D93009E0F95 /* WLPieChart.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		B35D3ADF20A57ECD009E0F95 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B35D3AE020A57EDC009E0F95 /* WLPieChartDataItem.h */,
+				B35D3AE120A57EDC009E0F95 /* WLPieChartDataItem.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B36DB13C20AE858F0093162D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B36DB13E20AE85BB0093162D /* WLRadarChartDataItem.h */,
+				B36DB13F20AE85BB0093162D /* WLRadarChartDataItem.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B36DB13D20AE85950093162D /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B36DB14220AE85D50093162D /* WLRadarChart.h */,
+				B36DB14320AE85D50093162D /* WLRadarChart.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B35D3A9920A578FE009E0F95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35D3AA120A578FE009E0F95 /* WLChart.h in Headers */,
+				B35D3AE620A58442009E0F95 /* WLBasicChart.h in Headers */,
+				B35D3AE220A57EDC009E0F95 /* WLPieChartDataItem.h in Headers */,
+				B36DB14420AE85D50093162D /* WLRadarChart.h in Headers */,
+				B36DB14020AE85BB0093162D /* WLRadarChartDataItem.h in Headers */,
+				B35D3ADC20A57E24009E0F95 /* WLChartDataItem.h in Headers */,
+				B34C9B1A20B5503B00C22B8D /* WLScatterChartDataItem.h in Headers */,
+				B34C9B1020B5113C00C22B8D /* WLPolylineChart.h in Headers */,
+				B34C9B1E20B550E000C22B8D /* WLScatterChart.h in Headers */,
+				B3B2676820B6940F009F761D /* WLBasicAxisChart.h in Headers */,
+				B34C9B1420B5115400C22B8D /* WLPolylineChartDataItem.h in Headers */,
+				B33B38F620AD7B2E00511D30 /* WLLegendView.h in Headers */,
+				B35D3AD820A57D93009E0F95 /* WLPieChart.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B35D3A9B20A578FE009E0F95 /* WLChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35D3AA420A578FE009E0F95 /* Build configuration list for PBXNativeTarget "WLChart" */;
+			buildPhases = (
+				B35D3A9720A578FE009E0F95 /* Sources */,
+				B35D3A9820A578FE009E0F95 /* Frameworks */,
+				B35D3A9920A578FE009E0F95 /* Headers */,
+				B35D3A9A20A578FE009E0F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLChart;
+			productName = WLChart;
+			productReference = B35D3A9C20A578FE009E0F95 /* WLChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35D3A9320A578FE009E0F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王落凡";
+				TargetAttributes = {
+					B35D3A9B20A578FE009E0F95 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B35D3A9620A578FE009E0F95 /* Build configuration list for PBXProject "WLChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B35D3A9220A578FE009E0F95;
+			productRefGroup = B35D3A9D20A578FE009E0F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B35D3A9B20A578FE009E0F95 /* WLChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B35D3A9A20A578FE009E0F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B35D3A9720A578FE009E0F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35D3ADD20A57E24009E0F95 /* WLChartDataItem.m in Sources */,
+				B36DB14520AE85D50093162D /* WLRadarChart.m in Sources */,
+				B35D3AE720A58442009E0F95 /* WLBasicChart.m in Sources */,
+				B34C9B1B20B5503B00C22B8D /* WLScatterChartDataItem.m in Sources */,
+				B33B38F720AD7B2E00511D30 /* WLLegendView.m in Sources */,
+				B34C9B1F20B550E000C22B8D /* WLScatterChart.m in Sources */,
+				B34C9B1520B5115400C22B8D /* WLPolylineChartDataItem.m in Sources */,
+				B36DB14120AE85BB0093162D /* WLRadarChartDataItem.m in Sources */,
+				B34C9B1120B5113C00C22B8D /* WLPolylineChart.m in Sources */,
+				B3B2676920B6940F009F761D /* WLBasicAxisChart.m in Sources */,
+				B35D3AD920A57D93009E0F95 /* WLPieChart.m in Sources */,
+				B35D3AE320A57EDC009E0F95 /* WLPieChartDataItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B35D3AA220A578FE009E0F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B35D3AA320A578FE009E0F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B35D3AA520A578FE009E0F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29D7F8VWD7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WLChart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangluofan..WLChart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B35D3AA620A578FE009E0F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29D7F8VWD7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WLChart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangluofan..WLChart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B35D3A9620A578FE009E0F95 /* Build configuration list for PBXProject "WLChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35D3AA220A578FE009E0F95 /* Debug */,
+				B35D3AA320A578FE009E0F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35D3AA420A578FE009E0F95 /* Build configuration list for PBXNativeTarget "WLChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35D3AA520A578FE009E0F95 /* Debug */,
+				B35D3AA620A578FE009E0F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B35D3A9320A578FE009E0F95 /* Project object */;
+}
